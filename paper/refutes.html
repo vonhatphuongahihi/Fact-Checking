@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fact Checking Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            padding: 30px;
+        }
+
+        .fact-box {
+            background: #fff;
+            border-radius: 12px;
+            border: 2px solid #b3c6e7;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px #0001;
+            padding: 18px 20px 10px 20px;
+            position: relative;
+            max-width: 600px;
+        }
+
+        .fact-title {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: #1a6ec1;
+            font-size: 1.1em;
+            margin-bottom: 6px;
+        }
+
+        .fact-title .icon {
+            font-size: 1.5em;
+            margin-right: 8px;
+        }
+
+        .fact-refute {
+            display: inline-block;
+            background: #fbdbd8;
+            color: #d15305;
+            border-radius: 16px;
+            padding: 2px 16px;
+            font-weight: bold;
+            border: 2px solid #b3c6e7;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 100%;
+            margin-top: -12px;
+            box-shadow: 0 2px 8px #0001;
+        }
+
+        .context-box {
+            background: #fff;
+            border-radius: 12px;
+            border: 2px solid #888;
+            box-shadow: 0 2px 8px #0001;
+            padding: 18px 20px 10px 20px;
+            max-width: 600px;
+        }
+
+        .context-title {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: #1a6ec1;
+            font-size: 1.1em;
+            margin-bottom: 6px;
+        }
+
+        .context-title .icon {
+            font-size: 1.5em;
+            margin-right: 8px;
+            color: #1a6ec1;
+        }
+
+        .fact-content,
+        .context-content {
+            color: #222;
+            margin-bottom: 8px;
+            font-size: 1.08em;
+            line-height: 1.85;
+            text-align: justify;
+        }
+
+        .fact-content .en,
+        .context-content .en {
+            font-weight: bold;
+            color: #222;
+        }
+
+        .highlight {
+            color: #1a6ec1;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fact-box">
+        <div class="fact-title">
+            Claim:
+        </div>
+        <div class="fact-content">
+            Chiến tranh thế giới thứ nhất không gây ra thay đổi nào trên bản đồ chính trị châu Âu; các đế quốc lớn vẫn
+            tồn tại sau chiến tranh.<br>
+            <span class="en">English:</span> World War I did not cause any changes to the political map of Europe; major
+            empires remained intact after the war.
+        </div>
+        <div class="fact-refute">
+            REFUTES <i class="fa-solid fa-close"></i>
+        </div>
+    </div>
+
+    <div class="context-box">
+        <div class="context-title">
+            Evidence:
+        </div>
+        <div class="context-content">
+            Chiến tranh thế giới thứ nhất đã làm thay đổi sâu sắc bản đồ chính trị thế giới. Các đế quốc lớn bao gồm
+            Đức, Nga, Áo - Hung, và Ottoman đều tan rã. Hàng loạt các quốc gia mới đã ra đời ở châu Âu trên lãnh thổ của
+            các đế quốc này.<br>
+            <span class="en">English:</span> World War I profoundly reshaped the political map of the world. Major
+            empires including Germany, Russia, Austria-Hungary, and the Ottoman Empire collapsed. Numerous new countries
+            emerged in Europe on the former territories of these empires.
+        </div>
+    </div>
+</body>
+
+</html>

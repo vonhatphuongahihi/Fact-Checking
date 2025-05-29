@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fact Checking Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            padding: 30px;
+        }
+
+        .fact-box {
+            background: #fff;
+            border-radius: 12px;
+            border: 2px solid #b3c6e7;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px #0001;
+            padding: 18px 20px 10px 20px;
+            position: relative;
+            max-width: 600px;
+        }
+
+        .fact-title {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: #1a6ec1;
+            font-size: 1.1em;
+            margin-bottom: 6px;
+        }
+
+        .fact-title .icon {
+            font-size: 1.5em;
+            margin-right: 8px;
+        }
+
+        .fact-support {
+            display: inline-block;
+            background: #e6f0ff;
+            color: #1a6ec1;
+            border-radius: 16px;
+            padding: 2px 16px;
+            font-weight: bold;
+            border: 2px solid #b3c6e7;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 100%;
+            margin-top: -12px;
+            box-shadow: 0 2px 8px #0001;
+        }
+
+        .context-box {
+            background: #fff;
+            border-radius: 12px;
+            border: 2px solid #888;
+            box-shadow: 0 2px 8px #0001;
+            padding: 18px 20px 10px 20px;
+            max-width: 600px;
+        }
+
+        .context-title {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            color: #1a6ec1;
+            font-size: 1.1em;
+            margin-bottom: 6px;
+        }
+
+        .context-title .icon {
+            font-size: 1.5em;
+            margin-right: 8px;
+            color: #1a6ec1;
+        }
+
+        .fact-content,
+        .context-content {
+            color: #222;
+            margin-bottom: 8px;
+            font-size: 1.08em;
+            line-height: 1.85;
+            text-align: justify;
+        }
+
+        .fact-content .en,
+        .context-content .en {
+            font-weight: bold;
+            color: #222;
+        }
+
+        .highlight {
+            color: #1a6ec1;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fact-box">
+        <div class="fact-title">
+            Claim:
+        </div>
+        <div class="fact-content">
+            Cầu Vàng là một công trình kiến trúc nổi tiếng tại Đà Nẵng, Việt Nam, được thiết kế giống như một đôi bàn
+            tay khổng lồ đang giữ một con đường.<br>
+            <span class="en">English:</span> The Golden Bridge is a famous architectural structure in Da Nang, Vietnam,
+            designed to resemble a giant pair of hands holding a walkway.
+        </div>
+        <div class="fact-support">
+            SUPPORTS <i class="fa-solid fa-check"></i>
+        </div>
+    </div>
+
+    <div class="context-box">
+        <div class="context-title">
+            Evidence:
+        </div>
+        <div class="context-content">
+            Cầu Vàng, một công trình kiến trúc</span> độc đáo tại Đà Nẵng, Việt Nam, được xây
+            dựng năm 2018. Công trình này là một con đường đi bộ với hai đầu nối vào một đôi bàn
+            tay khổng lồ giống như đang giữ con đường. Cầu Vàng được đánh giá là một trong những công trình kiến trúc
+            nổi tiếng nhất Việt Nam và thu hút rất nhiều du
+            khách.<br>
+            <span class="en">English:</span> The Golden Bridge, a unique architectural structure in Da Nang, Vietnam,
+            was built in 2018. It is a pedestrian walkway supported by a pair of giant
+            hands</span> that appear to be holding
+            the bridge. The Golden Bridge is considered one of Vietnam's most iconic architectural works and attracts
+            many tourists.
+        </div>
+    </div>
+</body>
+
+</html>
