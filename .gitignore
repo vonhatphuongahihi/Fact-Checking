@@ -57,3 +57,11 @@ logs/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Model finetune
+models/phoBert/fine_tuned_phobert_factcheck/
+models/xlmRoberta/fine_tuned_xlm_roberta_factcheck/
+**/model.safetensors
+**/bpe.codes
+**/vocab.txt
+**/sentencepiece.bpe.model
