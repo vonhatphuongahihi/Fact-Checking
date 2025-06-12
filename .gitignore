@@ -34,13 +34,6 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data files
-data/
-*.json
-*.csv
-*.xlsx
-*.xls
-
 # Logs
 *.log
 logs/
